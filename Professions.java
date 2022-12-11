@@ -31,7 +31,11 @@ public class Professions{
         dwithun.Noodles = 68;
         dwithun.feedNoodles();
 
-
+        //fatema
+        photographer fatema = new photographer();
+        fatema.name = "Fatima";
+        fatema.pictures = 1;
+        fatema.clicks pictures();
 
         // ✨Create object, set values and call method above this line✨
     }
@@ -98,6 +102,17 @@ class Chef{
     }
 }
 
+
+// fatima 
+class photographer{
+    String name;
+    int pictures;
+    
+    public void clickpictures() {
+        pictures++;
+        System.out.println("Total pictures: "+pictures);
+    }
+}
 
 // ✨Type your class above this line✨
  
