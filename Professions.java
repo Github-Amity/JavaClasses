@@ -35,7 +35,7 @@ public class Professions{
         photographer fatema = new photographer();
         fatema.name = "Fatima";
         fatema.pictures = 1;
-        fatema.clicks pictures();
+        fatema.clickpictures();
 
         // ✨Create object, set values and call method above this line✨
     }
